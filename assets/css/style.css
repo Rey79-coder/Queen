@@ -123,6 +123,12 @@ header nav ul li a {
     justify-content: center;
   }
   
+  .more-work, .img {
+    display: flex;
+    justify-content: center;
+
+  }
+
 /* CONTACT START */
 
 .contact-container {
@@ -167,7 +173,6 @@ footer {
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-
     /* this will be applied on any screen smaller than 980px */
 
     @media screen and (max-width: 980px) {
