@@ -199,7 +199,7 @@ footer {
         }
         
         .child-top-1, .child-top-2, .child-down-3, .child-down-4 {
-            width: 30%;
+            width: 25%;
             display: flex;
             justify-content: center;
         }
@@ -298,9 +298,15 @@ footer {
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-    /* this will be applied on any screen smaller than 380px */
+    /* this will be applied on any screen smaller than 393px */
 
 @media screen and (max-width: 393px) {
+
+.header {
+    padding: 10px auto;
+        margin-right: 16px;
+      }
+
 .short-bio {
     font-size: 16px;
 }
@@ -334,3 +340,4 @@ footer {
         bottom: 100px;
 
     }
+}
