@@ -45,7 +45,7 @@ header nav ul li a {
     justify-content: center;
 }
 
-/* after section works */
+/* HERO UNDER LINE START */
 
 .under-line, .hr {
     border: solid 3px red;
@@ -55,9 +55,7 @@ header nav ul li a {
     
 }
 
-
-
-/* ABOUT ME START */
+/* BODY / REYNA START */
 
 .whole{
     width: 100%;
@@ -92,7 +90,6 @@ header nav ul li a {
 
 /* WORK START */
 
-  
   .img, .box1 {
       width: 100%;
       margin: 30px, 10px, 20px;
@@ -108,6 +105,7 @@ header nav ul li a {
       height: 100%;
 
   }
+
 /* WORK START 2 */
 
 .work-container-2 {
@@ -125,13 +123,13 @@ header nav ul li a {
     justify-content: center;
   }
   
-/* CONTACT ME START */
+/* CONTACT START */
 
 .contact-container {
-background-color: khaki;
-padding: 50px 0px;
+     background-color: khaki;
+     padding: 50px 0px;
 
-}
+ }
  .nav3, .h2 {
      margin-left: 70px;
  }
@@ -167,3 +165,135 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+    /* this will be applied on any screen smaller than 980px */
+
+    @media screen and (max-width: 980px) {
+        .header, .footer {
+          padding-bottom: 0;
+          justify-content: center;
+        }
+      
+        header nav ul li a {
+          font-size: 20px;
+        }
+      
+
+        footer h2, footer div {
+          text-align: center;
+          width: 100%;
+        }
+         
+        .work-container-2, .contact-container {
+          display: flex;
+          justify-content: center;
+        }
+
+        .more-work, .img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+        
+        .child-top-1, .child-top-2, .child-down-3, .child-down-4 {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .contact-container  {
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .myself {
+            width: 50%;
+            margin-left: 20px;
+        }
+
+        .nav3, .h2 {
+            font-size: 45px;
+        }
+        .external-links {
+             margin-right: 15px;
+        }
+        .nav2, .vl1, .more-work {
+             display: flex;
+             justify-content: center;
+    }
+
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+    /* this will be applied on any screen smaller than 768px */
+
+@media screen and (max-width: 768px) {
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .myself {
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .email, .h5 {
+        margin-right: 20px;
+    }
+
+    .nav3 {
+        margin: 0;
+    }
+
+    .nav3, .h2 {
+        margin: 2px, 2px, 2px, 5px;
+    }
+}
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+    /* this will be applied on any screen smaller than 575px */
+
+@media screen and (max-width: 575px) {
+
+.header {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    }
+
+.home-navigation, ,ul, .li, a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+ .homepage-bTn {
+    width: auto;
+    margin: 5px, 5px, 5px, 5px;
+    }
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    }
+
+    .myself {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav3, .h2 {
+        font-size: 35px;
+    }
+
+    .external-links, .h5 {
+        font-size: 15px;
+    }
+}
+    
