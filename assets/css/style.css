@@ -199,7 +199,7 @@ footer {
         }
         
         .child-top-1, .child-top-2, .child-down-3, .child-down-4 {
-            width: 20%;
+            width: 30%;
             display: flex;
             justify-content: center;
         }
@@ -296,4 +296,41 @@ footer {
         font-size: 15px;
     }
 }
-    
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+    /* this will be applied on any screen smaller than 380px */
+
+@media screen and (max-width: 380px) {
+.short-bio {
+    font-size: 16px;
+}
+
+.contact-container  {
+        padding: 10px, 0, 20px, 0;
+        display: block;
+        justify-content: center;
+    }
+     .myself {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        position: absolute;
+    } 
+
+    .nav3 {
+        margin-left: 80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        position: relative;
+        top: 20px;
+    }
+    .external-links, .li {
+        margin-left: 80px;
+        text-align: justify;
+        font-size: 15px;
+        position: relative;
+        bottom: 100px;
+
+    }
