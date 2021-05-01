@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+
+    /* HEADER START */
+}
+header {
+    padding: 12px 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    background-image: "../images/queen-homepage.jpg";
+    width: 117px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    float: right;
+    margin: 12px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    color: white;
+    margin: 0 30px;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/* HERO START */
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #efdef9;
+}
+
+.hero img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* after section works */
+
+.under-line, .hr {
+    border: solid 3px red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+
+/* ABOUT ME START */
+
+.whole{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.whole, .h2, .nav1, .nav2 { 
+    font-size: 45px;
+    text-align: right;
+    display: inline;
+}
+
+.myself-container, .work-container, .work-container-2, .contact-container {
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    margin: 5px 10px 5px 10px;
+}
+
+
+.short-bio, p {
+    font-size: 20px;
+    font-style: normal;
+    display: flex;
+    margin: 0px 10px 20px 10px;
+    justify-content: center;
+    text-align: left;
+
+}
+
+/* WORK START */
+
+  
+  .img, .box1 {
+      width: 100%;
+      margin: 30px, 10px, 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .nav2, .h2 {
+      margin-left: 119px;
+  }
+  
+  .work-container, .vl {
+      height: 100%;
+
+  }
+/* WORK START 2 */
+
+.work-container-2 {
+    background-color: black;
+    padding: 30px;
+}
+
+.vl {
+    border-left: 6px solid black;
+    height: 150px;
+    width: 100px;
+    left: 25%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: center;
+  }
+  
+/* CONTACT ME START */
+
+.contact-container {
+background-color: khaki;
+padding: 50px 0px;
+
+}
+ .nav3, .h2 {
+     margin-left: 70px;
+ }
+
+ .external-links, .ul {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 25px;
+     text-align: left;
+ }
+
+
+/* FOOTER START */
+
+footer {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+
+}
+.h2, .love {
+    color: blanchedalmond;
+    margin: 0, 30px;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.p .love {
+    color: white;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+}
