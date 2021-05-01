@@ -300,7 +300,7 @@ footer {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
     /* this will be applied on any screen smaller than 380px */
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 393px) {
 .short-bio {
     font-size: 16px;
 }
