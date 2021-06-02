@@ -3,8 +3,11 @@
     <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <title id=#reyna>Queen</title>
+   
+    <title id=#reyna class="container-title">Queen</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
@@ -14,41 +17,46 @@
   <!--HEADER START -->
 
     <header>
-    <h1 class= "homepage-bTn"><img src="./assets/images/queen-homepage.png" alt="Queen's Portfolio"></h1>
-    <nav class="home-navigation">
+
+      <nav class="container home-navigation">
+
         <ul>
           <li>
             <a href="#reyna">Reyna</a></li>
+            <span>  </span>
           <li>
             <a href="#work">Work</a></li>
+            <span>  </span>
           <li>
             <a href="#contact">Contact</a></li>
+            <span>  </span>
           <li>
             <a href="#resume">Resume</a></li>
+            <span>  </span>
         </ul>
       </nav>
     </header>
 
   <!-- HERO START --> 
 
-<section class="hero">
+<section class="container-hero">
     <div class="hero">
     <img src="./assets/images/hero-image.gif" alt="Free Coffee At The Interview" />
 </section>
 
-    <hr class="under-line" />
+    <hr class="container-under-line" />
     <br />
-    <br />
-    <br />
+
 
 <!-- NAV 1 START - ABOUT ME --> 
 
-<div class="whole">
+
+<div class="container-whole">
    <section id="reyna", class="myself-container">
       <h2 class="nav1">About<br/>
                        Me</h2><br />
 
-      <div class="vl" class="vl1"></div>
+      <!-- <div class="vl" class="vl1"></div> -->
 
      <p class="short-bio">My name is Reyna and I’m thirty two years old. <br/>
                      I have been a Graphic Designer for longer than ten years. <br/>
@@ -73,47 +81,55 @@
 <section id="work", class="work-container">
   <h2 class="nav2">Work</h2>
   
-  <div class="vl" class="vl1" class="larger"></div>
+  <!-- <div class="vl" class="vl1" class="larger"></div> -->
 
   
   <div>
-    <img class="box1" src="./assets/images/vertical-box1_526_800.jpg" alt="designing skills plus web development" />
+    <img class="box1" src="./assets/images/vertical-box1_526_800.jpg"alt="designing skills plus web development" />
     </div> 
 </section>
 
 <br />
 
-<article class="work-container-2">  
 
-<section class="more-work">
-    <img class="child-top-1" src="./assets/images/one-quater-263-209-cyan.jpg" alt="logotypes" />
-    <img class="child-top-2" src="./assets/images/one-quater-263-209-magenta.jpg" alt="web banners" />
-    <img class="child-down-3" src="./assets/images/one-quater-263-209-yellow.jpg" alt="front end developer" />
-    <img class="child-down-4" src="./assets/images/one-quater-263-209-black.jpg" alt="back end developer" />
+
+<div class="work-container-2">  
+
+<section class="container-more-work">
+    <img class="child-top-1" src="./assets/images/one-quater-263-209-cyan.jpg" alt="logotypes" /> 
+    <img class="child-top-2" src="./assets/images/one-quater-263-209-magenta.jpg" alt="web banners" /> <br>
+    <img class="child-down-3" src="./assets/images/one-quater-263-209-yellow.jpg" alt="front end developer" /> 
+    <img class="child-down-4" src="./assets/images/one-quater-263-209-black.jpg" alt="back end developer" /> <br>
   </section> 
-</article>
+</div>
   
 
 <!-- NAV 3 START - CONTACT --> 
 
-<section id="contact", class="contact-container">
+<section id="contact", class="container-contact">
    
-  <img class="myself" src="./assets/images/pic-myself.jpg" alt="this is my face" />
+  <img class="container-myself" src="./assets/images/pic-myself.jpg" alt="this is my face" width="100%" height="100%"/>
 
-  <h2 class="nav3">Contact<br/>
-                   Me</h2>
+  <br>
+  <br>
 
-   <div class="vl" class="vl1"></div>
+   <!-- <div class="container-vl" class="vl1"></div> -->
+
      
-  <ul class="external-links">
-  <li class="email">
+  <ul class="container-external-links">
+
+    <h2 class="container-nav3">Contact Me</h2>
+    <br>
+    <br>
+  <li class="container-email">
     <h5>email:</h5>
-    <a href="malito:verareyna79@gmail.com">verareyna79@gmail.com</a></li>
-  <li>
+    
+    <a href="malito:verareyna79@gmail.com" id="email" class="text-email" alt="verareyna79@gmail.com">verareyna79@gmail.com</a></li>
+  <li class="container-phone">
     <h5>Phone# (562)357-1068 </h5>
-  <li>
+  <li class="container-resume">
     <h5>Complete Resume</h5>
-    <a href="https://drive.google.com/file/d/1cdN1uK0n1jXlLoWqoaRYTvyZoxxU6PkK/view?usp=sharing" target="_blank">So Awesome! Discretion Advised</a link></li>
+    <a href="https://drive.google.com/file/d/1cdN1uK0n1jXlLoWqoaRYTvyZoxxU6PkK/view?usp=sharing" alt="View complete resume" class="text-email" target="_blank">So Awesome! Discretion Advised</a link></li>
   </ul>
 </section>
 
@@ -121,9 +137,9 @@
 <!-- FOOTER START --> 
 
 <footer id="resume">
-  <div class="love">
-    <h2>❤️ Made with love by Reyna Ramirez.</h2>
-    <p class=>2021 Queen, Inc</p>
+  <div >
+    <h2 class="love">❤️ Made with love by Reyna Ramirez.</h2>
+    <p class="love-p">2021 Queen, Inc</p>
   </div>
 
 </footer>
