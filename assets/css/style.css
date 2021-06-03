@@ -112,8 +112,6 @@ header nav ul li a {
      background-color: khaki;
      display: flex;
      justify-content: center;
-     height: auto;
-     padding: 100%;
  }
 
  .container-myself {
@@ -263,18 +261,6 @@ footer {
 .short-bio {
     font-size: 16px;
 }
-=======
-@media screen and (max-width: 310px) {
-
-    body
-    .container-whole,
-    .work-container,
-    .work-container-2,
-    .container-contact,
-    .container-external-links {
->>>>>>> develop
-=======
-} */
 
 /* @media screen and (max-width: 310px) {
 >>>>>>> develop
