@@ -60,37 +60,27 @@ header nav ul li a {
     
 }
 
+.container-whole,
+.nav1 {
+    display: block;
+    text-align: center;
+}
+
 /* BODY / REYNA START */
 
-.container-whole{
-    display: flex;
-    justify-content: center;
-    
-}
-.container-whole, 
-h2, 
-.nav1 { 
-    /* font-size: 45px; */
-    text-align: right;
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 50px;
-}
 
-.myself-container, .work-container, .work-container-2, .container-contact{
-    padding: 20px;
+
+.work-container, 
+.work-container-2, 
+.container-contact{
     display: flex;
     justify-content: center;
-    margin: 5px 10px 5px 10px;
+    /* margin: 5px 10px 5px 10px; */
 }
 
 
 .short-bio, p {
-    /* font-size: 20px; */
-    /* font-style: normal; */
-    /* display: flex; */
-    margin: 0px 10px 20px 10px;
-    justify-content: center;
+
     text-align: left;
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
 
@@ -98,23 +88,13 @@ h2,
 
 /* WORK START */
 
-  .img, .box1 {
-      width: 100%;
-      margin: 30px, 10px, 20px;
+  .container-artwork1 {
+      /* width: 100%;
+      margin: 30px, 10px, 20px; */
       display: flex;
       justify-content: center;
   }
 
-  .nav2, .h2 {
-      margin-left: 119px;
-      margin-right: 70px;
-      font-family: Verdana, "Geneva", Tahoma, sans-serif;
-    }
-  
-  .work-container, .container-vl {
-      height: 100%;
-
-  }
 
 /* WORK START 2 */
 
@@ -133,6 +113,7 @@ h2,
      display: flex;
      justify-content: center;
      height: auto;
+     padding: 100%;
  }
 
  .container-myself {
@@ -179,10 +160,13 @@ footer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> develop
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
     /* this will be applied on any screen smaller than 980px */
 
-    @media screen and (max-width: 980px) {
+    /* @media screen and (max-width: 980px) {
         .header, .footer {
           padding-bottom: 0;
           justify-content: center;
@@ -222,14 +206,11 @@ footer {
             justify-content: center;
         }
 
-        .myself {
-            width: 50%;
-            margin-left: 20px;
-        }
 
         .nav3, .h2 {
             font-size: 45px;
         }
+<<<<<<< HEAD
         .external-links {
              margin-right: 15px;
         }
@@ -239,12 +220,15 @@ footer {
     }
 =======
 >>>>>>> develop
+=======
+     */
+>>>>>>> develop
 
 
          
     
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 
     section, 
     .container-more-work {
@@ -252,14 +236,17 @@ footer {
     display: block;
     justify-content: center;
     }
-}
+} */
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
 
    .container-whole {
+       display: block;
+       justify-content: center;
     text-align: center;
     }
+<<<<<<< HEAD
 }
 
 <<<<<<< HEAD
@@ -286,9 +273,16 @@ footer {
     .container-contact,
     .container-external-links {
 >>>>>>> develop
+=======
+} */
 
+/* @media screen and (max-width: 310px) {
+>>>>>>> develop
+
+    body {
      display: block;
      justify-content: center;
+     width: auto;
      }
 
      h2,
@@ -297,8 +291,9 @@ footer {
          justify-content: center;
      }
 
-     .container-myself {
+     .container-myself,
+     .container-external-links {
          display: block;
          justify-content: center;
      }
- }
+ }} */
