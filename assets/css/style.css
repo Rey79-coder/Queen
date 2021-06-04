@@ -13,9 +13,10 @@
 }
 
 header {
-    padding: 15px 0;
+    padding: 20px 0;
     background-color: black;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -23,6 +24,7 @@ header {
 header nav ul li {
     display: inline;
     justify-content: center;
+    flex-direction: row;
 }
 
 li {
@@ -31,7 +33,6 @@ li {
 
 header nav ul li a {
     color: white;
-    font-family: Verdana, "Geneva", Tahoma, sans-serif;
     font-size: 17px;
 }
 
@@ -53,7 +54,7 @@ header nav ul li a {
 /* HERO UNDER LINE START */
 
 .container-under-line, .hr {
-    border: solid 3px red;
+    border: solid 8px rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     width: 100%;
@@ -71,8 +72,7 @@ header nav ul li a {
 
 
 .work-container, 
-.work-container-2, 
-.container-contact{
+.work-container-2 {
     display: flex;
     justify-content: center;
     /* margin: 5px 10px 5px 10px; */
@@ -80,9 +80,11 @@ header nav ul li a {
 
 
 .short-bio, p {
-
     text-align: left;
-    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 25px; */
+    margin-right: 25px;
 
 }
 
@@ -100,7 +102,8 @@ header nav ul li a {
 
 .work-container-2 {
     background-color: black;
-    padding: 30px;
+    padding: 40px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -109,20 +112,27 @@ header nav ul li a {
 /* CONTACT START */
 
 .container-contact {
-     background-color: khaki;
+     /* background-color: khaki; */
      display: flex;
      justify-content: center;
+     max-width: 100%;
+    
+ }
+
+ .container-nav3 {
+padding-top: 20px;
  }
 
  .container-myself {
     width: auto;
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
  .container-external-links, .ul {
-     font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 20px;
      text-align: left;
  }
@@ -130,6 +140,10 @@ header nav ul li a {
 .container-email {
     display: flex;
     justify-content: center;
+}
+
+.text-email {
+    padding-bottom: 20px;
 }
 
 /* FOOTER START */
@@ -146,7 +160,6 @@ footer {
 .love {
     color: blanchedalmond;
     margin: 0, 30px;
-    font-family: Verdana, "Geneva", Tahoma, sans-serif;
     font-size: 17px;
 }
 
