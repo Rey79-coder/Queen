@@ -1,21 +1,10 @@
-## Reyna Ramirez Vera - ePortfolio, 2021
+## Reyna Ramirez Vera - ePortfolio, 2021 / Hugo Isaac /
 
 By Queen website is an open door for business. Here web users contact me to discuss about graphic design, web develpment, photography portfolio, and visual projects.
 
-The bar menu displays four buttons to navigate through the same homepage.
+The hero is the comercial deployable section. Therefore, my current client Hugo Isaac wants to show his talent in soccer. My services are to promote him and take a close look of him and his career. 
 
-The hero is an attention graber. In appreciation of the interviewer's time I offer a black small coffe. 
+On the bottom of the hero is my contact infomation. My name is Reyna Ramirez and my design / develop services are open for your business.
 
-The body of the website contains some block text with descriptions about me, work, and contact information of how the they can reach me out.
+Thank you for reaching out.
 
-Finally, the footer just close the design of the homepage.
-
-Sketch the design. ✅
-Plan and set goals for the project. ✅
-Create header.✅
-Create footer.✅
-Work samples. ✅
-Section hero.✅
-Section content.✅
-Content samples. ✅
-Add media queuries. ✅
